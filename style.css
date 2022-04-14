@@ -1,0 +1,74 @@
+body {
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+h3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 25px;
+}
+
+.flex-container {
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: #121616;
+  color: white;
+  min-height: 100vh;
+}
+
+.flex-item {
+  height: 50px;
+  width: 50px;
+  background-color: #ff0044;
+
+  border-radius: 12px;
+}
+
+.flex-divs {
+  background-color: #1a132f;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-envolv {
+  background-color: #323361;
+  padding: 10px;
+  width: 700px;
+  box-sizing: border-box;
+
+  min-width: 20%;
+  border-radius: 5px;
+
+  display: flex;
+  gap: 10px;
+}
+
+.content {
+  padding: 60px 0;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
