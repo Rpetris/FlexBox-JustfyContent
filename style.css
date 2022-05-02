@@ -1,20 +1,90 @@
-* {
-  padding: 0;
-  margin: 0;
+body {
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
 }
+
+h3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 25px;
+}
+
 .flex-container {
   box-sizing: border-box;
-  padding: 10px;
-  background-color: black;
+  padding: 50px;
+  background-color: #121616;
   color: white;
   min-height: 100vh;
+}
+
+.flex-item {
+  height: 50px;
+  width: 50px;
+  background-color: #ff0044;
+
+  border-radius: 12px;
+}
+
+.flex-divs {
+  background-color: #1a132f;
+  padding: 20px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+
+  max-height: 60em;
+  max-width: 130em;
 
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1 1 150px;
+
+  overflow: auto;
+
+  overflow: hidden;
+}
+
+.flex-envolv {
+  background-color: #323361;
+  padding: 10px;
+  width: 700px;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 
+  overflow: auto;
+  resize: horizontal;
+}
+
+.content {
+  padding: 60px 0;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-end {
   justify-content: flex-end;
 }
-.flex-item {
-  background-color: #ff0044;
-  flex: 0 1 150px;
+
+.space-between {
+  justify-content: space-between;
 }
