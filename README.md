@@ -17,7 +17,7 @@ A study purpose site, only for demonstration of the proprieties of the flexbox J
 ## Apprenticeship
 
 Better usage of the Classes, divs, height and width, colors, flexbox. I'll study to make the site responsive soon.
-## Documentação de cores
+## Colors Doc.
 
 | Color              | Hex                                              |
 | ----------------- | ---------------------------------------------------------------- |
